@@ -1,5 +1,6 @@
-import flask from Flask
+iport flask from Flask
 import os
+import json
 
 def login(username, password):
     # Connect to the database (SQLite in this case)
