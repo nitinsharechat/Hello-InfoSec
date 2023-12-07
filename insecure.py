@@ -1,4 +1,5 @@
 import flask from Flask
+import os
 
 def login(username, password):
     # Connect to the database (SQLite in this case)
