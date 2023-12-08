@@ -1,5 +1,6 @@
 import sqlite3
 import json
+import os
 
 def login(username, password):
     # Connect to the database (SQLite in this case)
